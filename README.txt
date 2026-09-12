@@ -96,9 +96,9 @@ From the package root:
 
   ./review.sh
 
-Requirements: Bash, Python 3 standard library, and sha256sum or shasum. No network, device,
-compiler, decompiler, proprietary software, or third-party Python package is required.
-Expected runtime is under one minute.
+Requirements: Linux or macOS with a Bash-compatible shell, Python 3 standard library,
+and sha256sum or shasum. No network, device, compiler, decompiler, proprietary software,
+GUI, or third-party Python package is required. Expected runtime is under one minute.
 
 INTERPRETING PASS RESULTS
 
