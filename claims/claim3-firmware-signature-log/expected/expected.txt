@@ -1,0 +1,5 @@
+OK: exactly two 'Signature check failed' events found
+OK: final logged update attempt has no recorded final result (ends at version verification)
+OK: no configuration/XML-import terms found in this log (firmware-scoped only)
+RESULT: PASS
+exit code: 0

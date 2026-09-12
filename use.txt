@@ -1,0 +1,41 @@
+INTENDED USE AND LIMITATIONS
+
+This artifact package is prepared for defensive academic evaluation, evidence-traceability
+review, and security research or education consistent with applicable authorization, law,
+ethics, safety requirements, and license terms.
+
+SAFETY AND RESPONSIBLE-USE GUIDANCE
+
+The package is not an exploitation toolkit and does not provide operational scripts,
+credentials, live endpoints, session material, proprietary binaries, or reproduction-ready
+payloads. It is not intended to direct interaction with a live identiFINDER2 or any other
+device. Users remain responsible for obtaining authorization and applying appropriate safety
+controls before interacting with any system.
+
+The released material is intended to support review of the paper's bounded claims, not to
+enable operational interaction with deployed identiFINDER2 systems.
+
+EVIDENTIARY LIMITATIONS
+
+- The live assessment involved one physical unit running firmware 2015.1.
+- The 2019.2 firmware evidence was examined separately and is corroborating only.
+- The package performs static checks over sanitized derivatives; it does not reproduce the
+  original physical-device experiment.
+- Configuration-import acceptance is supported by researcher-maintained notes and the
+  researcher-identified live-demo workflow, not by a preserved device-generated import log.
+- The same suppress-script workflow was used for the NORM and SNM demonstrations by changing
+  the classification value; no separately saved byte-exact SNM output is distributed.
+- No trial counts, success rates, prevalence estimates, uncertainty measurements, or
+  cross-device conclusions were collected or claimed.
+- Operational implications are labeled separately from directly observed results.
+
+WITHHOLDING BOUNDARY
+
+See artifact/WITHHELD-ARTIFACTS.md for categories excluded because of security, safety,
+privacy, credential exposure, sensitive provenance, or redistribution concerns.
+
+LICENSE RELATIONSHIP
+
+This file describes intended use and limitations; it does not add restrictions beyond the
+licenses applicable to eligible included materials. The researcher approved the license
+terms recorded in license.txt on 2026-08-24.

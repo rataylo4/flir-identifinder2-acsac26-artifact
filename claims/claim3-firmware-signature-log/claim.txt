@@ -1,0 +1,17 @@
+CLAIM 3: Firmware signature-check log evidence
+
+Statement evaluated:
+  The device-generated firmware update log records exactly two explicit
+  "Signature check failed" events, and the final logged update-attempt sequence ends with
+  version-verification entries and no recorded final accept/reject result. The log does not
+  contain any configuration (XML) import entries.
+
+Evidence file:
+  ../../artifact/logs/firmware-update-log-sanitized.txt
+
+What run.sh checks (static, no device required):
+  1. Exactly two lines matching "[ERROR]Signature check failed" are present.
+  2. The last "Beginning Update" block ends with "Update version verification ends." and no
+     subsequent "[ERROR]" or "Finished successfully" line follows it.
+  3. No line contains the words "settings" or "xml" (case-insensitive) — confirming this log
+     is scoped to firmware updates only, not configuration imports.

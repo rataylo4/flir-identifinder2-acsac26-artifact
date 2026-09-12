@@ -1,0 +1,115 @@
+LICENSE
+
+LICENSE TERMS APPROVED BY THE RESEARCHER ON 2026-08-24.
+
+The researcher approved public release of this artifact package under these
+terms on 2026-09-08.
+
+This artifact package contains materials released under different licenses
+depending on content type.
+
+1. DOCUMENTATION, DATA, AND SANITIZED RESEARCH ARTIFACTS
+
+Unless otherwise noted, author-created documentation, metadata, manifests,
+sanitized research data, and sanitized derivative artifacts in this package
+are licensed under:
+
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+License URL:
+https://creativecommons.org/licenses/by/4.0/
+
+This includes, where present:
+
+- README.txt
+- use.txt
+- EVIDENCE-MAP.md
+- ARTIFACT-MANIFEST.csv
+- SANITIZATION-MANIFEST.csv
+- WITHHELD-ARTIFACTS.md
+- methodology documentation
+- infrastructure documentation
+- claims documentation
+- author-created sanitized configuration derivatives
+- author-created sanitized log derivatives
+- author-created metadata and evidence-traceability files
+
+Attribution should cite the associated FLIR identiFINDER2 research paper
+and this artifact package.
+
+2. SOFTWARE AND SCRIPTS
+
+Author-created source code and scripts in this artifact package are licensed
+under:
+
+MIT License
+
+License URL:
+https://opensource.org/license/mit/
+
+This includes, where present:
+
+- install.sh
+- claim run.sh scripts
+- author-created parsing utilities
+- author-created sanitization utilities
+- other author-created executable scripts or source code
+
+MIT License
+
+Copyright (c) 2026 The Authors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+3. MANUSCRIPT FIGURES
+
+Figures reproduced from or submitted as part of the associated manuscript
+are not relicensed by this artifact package. Their use remains subject to
+the copyright and publication terms applicable to the manuscript.
+
+4. VENDOR AND THIRD-PARTY MATERIAL
+
+No license is granted by this file for vendor firmware, vendor software,
+vendor documentation, trademarks, or other third-party intellectual property.
+
+Vendor firmware binaries and proprietary vendor software are intentionally
+excluded from this artifact package unless their redistribution is separately
+authorized.
+
+Product names and trademarks remain the property of their respective owners.
+
+5. SANITIZED DERIVATIVE MATERIAL
+
+Some included files may be sanitized derivatives of evidence generated during
+the research assessment. The licenses above apply only to the authors'
+original selection, organization, annotations, redactions, and other
+copyrightable contributions where legally applicable.
+
+No license or ownership claim is asserted over underlying third-party
+intellectual property.
+
+6. SECURITY AND SAFETY REDACTIONS
+
+Certain operational details have intentionally been removed or generalized,
+including credentials, authentication tokens, live network identifiers,
+proprietary binaries, sensitive device information, and other material whose
+release could create security, safety, privacy, or redistribution concerns.
+
+The absence of such material is intentional and does not indicate that the
+underlying research evidence did not exist.

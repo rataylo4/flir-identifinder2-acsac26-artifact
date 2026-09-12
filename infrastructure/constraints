@@ -1,0 +1,16 @@
+INFRASTRUCTURE CONSTRAINTS
+
+This is a static evidence package. It has no hardware or network dependencies.
+
+Requirements to evaluate this artifact:
+  - An ordinary Linux or macOS environment.
+  - Bash.
+  - Python 3 (standard library only; no third-party packages required).
+  - A SHA-256 utility (sha256sum on Linux, shasum -a 256 on macOS).
+
+Expected total runtime for install.sh plus all claims/*/run.sh scripts: under one minute.
+
+No compiler, no .NET runtime, no decompiler, no database, and no GPU are required to
+evaluate this package. (A .NET runtime and ilspycmd were used to originally produce the
+reverse-engineering observation in artifact/reverse-engineering/ — that step is not part of
+this package and is not required to evaluate it; see infrastructure/evidence-boundary.txt.)

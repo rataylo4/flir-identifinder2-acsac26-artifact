@@ -1,0 +1,6 @@
+OK: figure present
+OK: figure hash matches an entry in SHA256SUMS.txt
+OK: boundary 3 present in EVIDENCE-MAP.md
+OK: exact-payload-not-preserved limitation language present
+RESULT: PASS
+exit code: 0

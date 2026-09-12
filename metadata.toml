@@ -1,0 +1,96 @@
+# Self-describing metadata for the FLIR identiFINDER2 ACSAC 2026 artifact.
+# ACSAC 2026 does not prescribe a metadata.toml schema; this file complements
+# the artifact-submission metadata form and indexes the release package.
+
+schema_version = "1.0"
+artifact_name = "FLIR identiFINDER2 ACSAC 2026 Artifact"
+paper_title = "Safety-Aware Security Assessment of a Fielded Radiation Detection Device: The FLIR identiFINDER2"
+venue = "ACSAC 2026"
+repository_url = "https://github.com/rataylo4/flir-identifinder2-acsac26-artifact"
+repository_visibility = "public"
+release_status = "approved-for-public-release"
+artifact_types = [
+  "sanitized research-data derivatives",
+  "static verification scripts",
+  "documentation",
+]
+evaluation_scope = "Availability, documentation, internal consistency, evidence traceability, and static exercisability"
+results_reproduced = false
+
+readme = "README.txt"
+install_script = "install.sh"
+license_file = "license.txt"
+use_file = "use.txt"
+evidence_map = "artifact/EVIDENCE-MAP.md"
+artifact_manifest = "artifact/ARTIFACT-MANIFEST.csv"
+sanitization_manifest = "artifact/SANITIZATION-MANIFEST.csv"
+withheld_artifacts = "artifact/WITHHELD-ARTIFACTS.md"
+release_readiness = "infrastructure/RELEASE-READINESS.md"
+checksums = "artifact/checksums/SHA256SUMS.txt"
+
+[execution]
+operating_systems = ["Linux", "macOS"]
+shell = "Bash"
+python = "Python 3 standard library"
+hash_utility = "sha256sum or shasum"
+network_required = false
+hardware_required = false
+device_required = false
+third_party_packages_required = false
+gui_required = false
+expected_runtime = "under one minute"
+
+[infrastructure]
+mode = "local static evaluation"
+constraints = "infrastructure/constraints"
+access = "infrastructure/access"
+evidence_boundary = "infrastructure/evidence-boundary.txt"
+
+[licensing]
+documentation_and_sanitized_data = "CC BY 4.0"
+software_and_scripts = "MIT"
+manuscript_figures_relicensed = false
+vendor_or_third_party_license_granted = false
+
+[safety]
+destructive = false
+live_testing = false
+operational_payloads_included = false
+credentials_included = false
+proprietary_firmware_included = false
+
+[[claims]]
+id = "claim1-threshold-diff"
+title = "Sanitized configuration structural comparison"
+script = "claims/claim1-threshold-diff/run.sh"
+expected = "claims/claim1-threshold-diff/expected/expected.txt"
+
+[[claims]]
+id = "claim2-semantic-observation"
+title = "Cs-137 IND/NORM/SNM semantic-observation boundary"
+script = "claims/claim2-semantic-observation/run.sh"
+expected = "claims/claim2-semantic-observation/expected/expected.txt"
+
+[[claims]]
+id = "claim3-firmware-signature-log"
+title = "Firmware signature-check log evidence"
+script = "claims/claim3-firmware-signature-log/run.sh"
+expected = "claims/claim3-firmware-signature-log/expected/expected.txt"
+
+[[claims]]
+id = "claim4-recurrent-exception"
+title = "Recurrent exception occurrence"
+script = "claims/claim4-recurrent-exception/run.sh"
+expected = "claims/claim4-recurrent-exception/expected/expected.txt"
+
+[[claims]]
+id = "claim5-import-handler-observation"
+title = "Configuration-import handler observation (corroborating, 2019.2)"
+script = "claims/claim5-import-handler-observation/run.sh"
+expected = "claims/claim5-import-handler-observation/expected/expected.txt"
+
+[[claims]]
+id = "claim6-cvss-record"
+title = "CVSS record consistency"
+script = "claims/claim6-cvss-record/run.sh"
+expected = "claims/claim6-cvss-record/expected/expected.txt"

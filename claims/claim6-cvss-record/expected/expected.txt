@@ -1,0 +1,5 @@
+OK: CWE-798 CSV row records the complete vector, 7.1 score, and High severity
+OK: sanitized finding summary matches the CSV
+OK: author-assessment limitation is present
+RESULT: PASS
+exit code: 0

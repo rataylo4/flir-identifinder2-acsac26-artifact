@@ -1,0 +1,6 @@
+OK: correct assembly and method named
+OK: MainApplication.exe not mentioned at all
+OK: required version-boundary caveats present
+OK: no verbatim code / method body found (prose-only)
+RESULT: PASS
+exit code: 0

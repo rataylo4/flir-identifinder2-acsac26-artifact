@@ -1,0 +1,13 @@
+CLAIM 1: Sanitized configuration structural comparison
+
+Statement evaluated:
+  The authored sanitized derivative records that the restricted baseline and variant are
+  well-formed XML with the same parsed 173-setting structure and exactly three changed numeric
+  setting values. It does not claim XSD validation, byte identity, on-device acceptance, or a
+  semantic-classification result. Operational field names and exact values are withheld.
+
+Evidence file:
+  ../../artifact/configuration/threshold-diff-sanitized.md
+
+This is a deterministic document-structure check over a sanitized derivative. It does not
+reproduce the restricted XML comparison or the live-device result.

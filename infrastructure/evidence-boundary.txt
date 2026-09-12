@@ -1,0 +1,33 @@
+EVIDENCE BOUNDARY
+
+This package is a static evidence package. It draws on, but does not include, a larger
+restricted evidence repository held by the research team.
+
+What IS in this package:
+  - Sanitized derivatives of device-generated logs.
+  - An authored configuration diff with credential-bearing values redacted.
+  - A single-paragraph prose observation about one decompiled method, with no code
+    reproduced.
+  - Already-published, metadata-verified figures.
+  - Already-sanitized manuscript artifact material (CVSS/CWE notes, evidence index,
+    pseudocode, disclosure note, synthetic example, phase checklist).
+  - Provenance tables using neutral evidence IDs and SHA-256 hashes.
+
+What is NOT in this package, and why:
+  - The proprietary firmware image and any decompiled assembly (redistribution rights).
+  - Raw configuration files with real credential values (credential exposure).
+  - Operational/automation scripts (contain a live test-network address and a real
+    device credential).
+  - Packet captures, session cookies/tokens (operational/session material).
+  - The full device system log (extended operational history beyond the assessment
+    window).
+  - Raw source photographs (every one carries embedded GPS location data, confirmed by
+    direct metadata inspection).
+
+See artifact/WITHHELD-ARTIFACTS.md for the full, generic accounting of excluded material.
+
+This package does not ask an evaluator to reproduce the original assessment against a
+device. It asks an evaluator to statically verify that the sanitized derivatives included
+here are internally consistent (correct hashes, well-formed data, deterministic claim
+output) and that they support only the specific, bounded statements documented in
+artifact/EVIDENCE-MAP.md.

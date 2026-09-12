@@ -1,0 +1,11 @@
+Finding,Related phase(s),Evidence category,Paper support,Sanitization boundary
+Cleartext administrative-secret storage in exported configuration,"3, 6, 8",Artifact review; credential-exposure observation,"Table 2; Sections 5.2, 5.3, 5.5","No credentials, PINs, real file contents, or access paths."
+Missing authorization for configuration export,"3, 6, 8",Configuration-resource access observation,"Table 2; Sections 5.2, 5.3, 5.5","No real configuration files, endpoints, credentials, or direct-request procedure."
+Insufficient authenticity verification of restored configuration state,"3, 6, 7, 8",Configuration workflow review; sanitized live-validation images; operator-facing behavior observations,"Table 2; Table 3; Fig. 2; Fig. 3; Sections 5.2--5.5","No payloads, field names, modified configuration values, real endpoints, or reproduction steps."
+Lack of authentication lockout or throttling (evidence-limited),"3, 6, 8",Absence-of-evidence observation,"Table 2; Section 5.5","No brute-force procedure, wordlists, credential material, or failed-login trial record."
+Cleartext administrative transport,"2, 3, 8",Management-transport observation,"Table 2; Sections 5.2, 5.5","No session captures, URLs, tokens, or request formats."
+Cleartext telemetry-related channel (evidence-limited),"2, 8",Service/channel observation,"Table 2; Sections 5.1, 5.5","No decoded operational content, packet payloads, or demonstrated modification."
+Network-triggered uncaught exception and interface disruption,"2, 6, 8",Controlled enumeration observation; screenshot evidence,"Table 2; Fig. 1; Sections 5.1, 5.3","No crash-triggering packet details, commands, or fuzzing inputs."
+"Missing authorization for system information, logs, and spectra","3, 8",Sanitized resource-access observation,"Table 2; Section 5.2","No raw logs, spectra, source identifiers, or operational histories."
+Legacy third-party JavaScript components (evidence-limited),"3, 8",Web-layer component observation,"Table 2; Section 5.2",No full web application dump or device-specific file paths.
+Hardcoded administrative credential in software/firmware artifact,"3, 4, 7, 8",Decompiled-code observation; live-authentication and administrative-access validation; diagnostic-log-deletion observation,"Table 2; Section 5.2","No credential values, session tokens, endpoints, or reproduction-ready login procedure."

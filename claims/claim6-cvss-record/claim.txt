@@ -1,0 +1,14 @@
+CLAIM 6: CVSS record consistency
+
+Statement evaluated:
+  The hardcoded-credential row and sanitized finding summary record the same complete CVSS
+  v3.1 vector, base score 7.1, and High severity, while retaining the author-assessment
+  limitation.
+
+Evidence files:
+  ../../artifact/supporting-materials/cvss_cwe_scoring_notes.csv
+  ../../artifact/supporting-materials/hardcoded-credential-finding-sanitized.md
+  ../../artifact/supporting-materials/cvss-cwe-scoring-caveat.md
+
+This static consistency check does not independently establish exploitability, impact, or
+the correctness of the authors' metric judgments.

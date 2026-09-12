@@ -1,0 +1,26 @@
+# Firmware Update Log — Minimized Sanitized Derivative
+# Restricted source identifier: log-update-001
+# Restricted source SHA-256: d5458556950218f7d3a57de000ea0f0c46f2273061e5a36b2aa5e0e8423d1be1
+#
+# Sanitization/minimization:
+# - HTTP transport headers, device serial, response filename, and unrelated historical or
+#   operational entries were removed.
+# - The retained lines are verbatim device-generated log lines relevant to the bounded claim.
+#
+# Supported interpretation:
+# - Two repeated "Signature check failed" entries confirm that the firmware-update process
+#   invoked a signature-verification step for those attempts.
+# - This does not establish the strength, completeness, algorithm, key management, or coverage
+#   of the cryptographic mechanism.
+# - The final retained update sequence ends after version verification with no recorded final
+#   accept/reject result; no definitive final rejection is claimed for that sequence.
+# - This log concerns firmware updates. It does not record configuration/XML imports.
+#
+2/23/2026 10:22:17 PM: Beginning Update
+2/23/2026 10:25:40 PM: [ERROR]Signature check failed
+2/23/2026 10:39:03 PM: Beginning Update
+2/23/2026 10:42:27 PM: [ERROR]Signature check failed
+2/23/2026 10:42:46 PM: Beginning Update
+2/23/2026 10:46:47 PM: Update version verification begins.
+2/23/2026 10:46:47 PM: Update version = 2019.2.1.474
+2/23/2026 10:46:47 PM: Update version verification ends.

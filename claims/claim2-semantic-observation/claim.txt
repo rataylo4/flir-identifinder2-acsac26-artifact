@@ -1,0 +1,22 @@
+CLAIM 2: Cs-137 IND/NORM/SNM semantic-observation boundary
+
+Statement evaluated:
+  The baseline-vs-modified-state classification behavior shown in the published figure is a
+  direct observation on the tested 2015.1 device, using the same physical Cs-137 check
+  source across both observations. The exact configuration payload that produced the
+  modified-state result is not preserved in the evidence trail, and this package does not
+  claim otherwise.
+
+Evidence files:
+  ../../artifact/figures/Semantic manipulation.png
+  ../../artifact/EVIDENCE-MAP.md (boundary 3)
+
+What run.sh checks (static, no device required):
+  1. The figure file is present and its SHA-256 matches the value recorded in
+     ../../artifact/checksums/SHA256SUMS.txt.
+  2. EVIDENCE-MAP.md contains boundary 3 and explicitly states the exact payload is not
+     preserved.
+  3. EVIDENCE-MAP.md does not claim a preserved file reproduces the exact figure result.
+
+This checks internal consistency between the published figure, its recorded hash, and the
+documented evidentiary limitation. It does not re-derive the figure's content.

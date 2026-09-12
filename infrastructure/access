@@ -1,0 +1,11 @@
+ACCESS
+
+The physical device used in the underlying research is NOT provided with this package and
+is not required to evaluate it.
+
+No remote access to any device is provided or required, because operational artifacts
+(live network addresses, credentials, session material, exact endpoints and payloads) are
+deliberately withheld from this public package — see artifact/WITHHELD-ARTIFACTS.md.
+
+All claims in claims/ are evaluated by static inspection of sanitized data files included in
+this package. No claim script attempts to contact a device, network, or vendor service.

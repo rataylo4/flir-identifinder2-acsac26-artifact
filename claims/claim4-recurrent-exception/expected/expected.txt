@@ -1,0 +1,5 @@
+OK: exactly two matching IndexOutOfRangeException occurrences found
+OK: occurrences are 28 days apart (within 20-40 day 'approximately one month' band)
+OK: overclaim terms either absent or only used within an explicit disclaimer
+RESULT: PASS
+exit code: 0

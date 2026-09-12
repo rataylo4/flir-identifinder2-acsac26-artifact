@@ -1,0 +1,6 @@
+OK: exactly three sanitized changed-field rows found
+OK: parsed-structure result and setting count present
+OK: XSD and byte-identity limitations present
+OK: operational field names and exact values are withheld
+RESULT: PASS
+exit code: 0

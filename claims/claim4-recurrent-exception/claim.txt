@@ -1,0 +1,20 @@
+CLAIM 4: Recurrent exception occurrence
+
+Statement evaluated:
+  The sanitized exception log contains exactly two occurrences of the same
+  IndexOutOfRangeException at the same DNS response-builder stack location, approximately
+  one month apart. This is described as "two logged occurrences" / a "recurrent
+  observation," not as a "reproducible finding" or "controlled reproduction" — no controlled
+  trigger-and-reproduce procedure was performed.
+
+Evidence file:
+  ../../artifact/logs/exception-log-sanitized.txt
+
+What run.sh checks (static, no device required):
+  1. Exactly two "IndexOutOfRangeException" entries exist, each immediately followed by the
+     same two-line stack trace (Identifinder.NetworkServices.Dns.ResponseBuilder /
+     DnsServer.Listener).
+  2. The two occurrences' timestamps are between 20 and 40 days apart (consistent with
+     "approximately one month").
+  3. The word "reproducible" and the phrase "controlled reproduction" do not appear anywhere
+     in this package's authored claim/methodology text describing this finding.

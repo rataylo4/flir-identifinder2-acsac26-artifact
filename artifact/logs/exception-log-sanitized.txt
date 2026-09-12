@@ -1,0 +1,18 @@
+# Exception Log — Minimized Sanitized Derivative
+# Restricted source identifier: log-exception-001
+# Restricted source SHA-256: c0c9c7c68e21557bcb07cf0274c8cfc01c67797f842eb33fd09734df14317e40
+#
+# HTTP headers, device identifiers, response filename, and unrelated entries were removed.
+# The retained timestamp, exception name, and stack location are verbatim.
+# This supports two recurrent logged occurrences, not controlled reproduction or a measured
+# trigger condition.
+#
+02/23/2026 12:56:48
+IndexOutOfRangeException
+   at Identifinder.NetworkServices.Dns.ResponseBuilder.GenerateResponse(Byte[] data)
+   at Identifinder.NetworkServices.Dns.DnsServer.Listener()
+
+03/23/2026 15:35:47
+IndexOutOfRangeException
+   at Identifinder.NetworkServices.Dns.ResponseBuilder.GenerateResponse(Byte[] data)
+   at Identifinder.NetworkServices.Dns.DnsServer.Listener()

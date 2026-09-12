@@ -1,0 +1,21 @@
+CLAIM 5: Configuration-import handler observation (corroborating, 2019.2)
+
+Statement evaluated:
+  In a separately obtained 2019.2 firmware image, the correct assembly
+  (Identifinder.CodeBehind.dll) and method
+  (Identifinder.CodeBehind.Settings.BackupSettingsPage.HandleUploadedFile) is named as the
+  handler with no visible signature/checksum/authenticity check. This is corroborating
+  evidence only, version-bounded, and does not claim the 2015.1 build is code-identical or
+  that no check exists elsewhere in the deserialization pipeline. No proprietary code is
+  included in this package.
+
+Evidence file:
+  ../../artifact/reverse-engineering/README.md
+
+What run.sh checks (static, no device required):
+  1. The file names the correct assembly (Identifinder.CodeBehind.dll) and does not name
+     Identifinder.MainApplication.exe as the source of this finding.
+  2. The file contains the required version-boundary caveats (code-identical disclaimer,
+     "elsewhere in the deserialization pipeline" disclaimer).
+  3. The file contains no C#/code block markers and no proprietary method body — i.e., it is
+     prose-only.

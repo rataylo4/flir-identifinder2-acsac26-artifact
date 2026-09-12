@@ -1,0 +1,5 @@
+category,description,released_in_this_package,rationale
+A - safe as-is,"Material already sanitized and published with the manuscript, or authored fresh with no operational content",yes,No credentials tokens live addresses proprietary binaries or identifying information present
+B - safe after sanitization,"Device logs configuration diff and reverse-engineering observation requiring redaction before release",yes - redaction applied and documented per file,See ARTIFACT-MANIFEST.csv sanitization column for the specific redaction applied to each file
+C - metadata or hash only,"Material whose existence and role is documented but which is not distributed in full",no - hash and description only,"Restricted configurations logs validation records live-demo scripts and 2019.2 components; see supporting-materials/source-evidence-id-table.md"
+D - do not release,"Material containing credentials session tokens proprietary binaries sensitive source provenance metadata or operational scripts",no,"Includes raw and source-identifying photographs plus the redacted check-source photograph because its visible label retains activity/reference provenance; see WITHHELD-ARTIFACTS.md"

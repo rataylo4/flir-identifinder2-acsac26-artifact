@@ -1,0 +1,33 @@
+HOSTING PLAN — PUBLIC RELEASE AUTHORIZED
+
+Repository name:
+
+  flir-identifinder2-acsac26-artifact
+
+The researcher approved creation of a dedicated GitHub repository on 2026-08-24 and approved
+public release of the sanitized package on 2026-09-08. The repository was populated from a
+fresh standalone history. The parent research-repository history and restricted evidence
+tree were not imported.
+
+The ACSAC 2026 submission requires an artifact-repository link that evaluators can access and
+a commitment to permanent public availability. This repository is designated as the public
+artifact location for the associated paper.
+
+Repository maintenance:
+
+1. Resolve every item in RELEASE-READINESS.md.
+2. Re-run install.sh, every claim, the release audit, and full-package checksum verification.
+3. Verify that the approved figure-rights and license decisions remain applicable to the
+   final repository contents.
+4. Review staged files and Git object history for excluded material.
+5. Confirm that each published version contains only the approved package tree.
+
+Later Zenodo archival was approved in principle by the researcher on 2026-08-24. It may occur
+only after the GitHub/repository version is reviewed, approved, and frozen. The release
+archive, version, DOI metadata, authorship, and licensing fields must be verified before
+upload.
+
+CURRENT STATE: Public release of the GitHub repository is authorized. The repository owner
+retains direct control of its visibility setting. The local and remote repositories use
+standalone history and do not import the parent research-repository history. No GitHub
+release, Zenodo record, DOI, or Zenodo upload has been created.

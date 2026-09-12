@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- NON-OPERATIONAL SYNTHETIC EXAMPLE
+     This toy file is not from the assessed device and cannot configure,
+     exploit, restore, or manipulate any real radiation detection platform.
+-->
+<SyntheticDeviceConfiguration>
+  <Metadata>
+    <DeviceClass>ExampleSafetySensor</DeviceClass>
+    <ConfigurationVersion>0.0-demo</ConfigurationVersion>
+    <GeneratedFor>SanitizedReviewArtifact</GeneratedFor>
+    <OperationalUse>false</OperationalUse>
+  </Metadata>
+  <AccessControl>
+    <AuthenticationRequired>true</AuthenticationRequired>
+    <ExportRequiresAuthorization>true</ExportRequiresAuthorization>
+    <RestoreRequiresIntegrityCheck>true</RestoreRequiresIntegrityCheck>
+  </AccessControl>
+  <OperatorDisplay>
+    <AlertPresentationMode>DEMO_ONLY</AlertPresentationMode>
+    <SemanticLabelSource>LOCKED_IN_REAL_SYSTEMS</SemanticLabelSource>
+  </OperatorDisplay>
+  <IntegrityControls>
+    <ConfigurationSignature>DEMO_PLACEHOLDER_NOT_A_SIGNATURE</ConfigurationSignature>
+    <ReplayProtection>EXPECTED_FOR_REAL_DEPLOYMENTS</ReplayProtection>
+    <AuditRecordRequired>true</AuditRecordRequired>
+  </IntegrityControls>
+  <SafetyBoundary>
+    <RawMeasurementPathEditable>false</RawMeasurementPathEditable>
+    <FailSafeBehaviorEditable>false</FailSafeBehaviorEditable>
+    <Notes>This toy example intentionally omits operational fields.</Notes>
+  </SafetyBoundary>
+</SyntheticDeviceConfiguration>
