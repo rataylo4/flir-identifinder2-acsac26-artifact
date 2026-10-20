@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this research artifact, please cite the permanently archived v1.0.0 release."
+type: software
+title: "rataylo4/flir-identifinder2-acsac26-artifact: ACSAC 2026 Artifact — FLIR identiFINDER2 Security Assessment (v1.0.0)"
+authors:
+  - family-names: "Taylor"
+    given-names: "Roshane"
+    affiliation: "School of Computer and Cyber Sciences, Augusta University"
+  - family-names: "Nowatkowski"
+    given-names: "Michael"
+    affiliation: "School of Computer and Cyber Sciences, Augusta University"
+  - family-names: "Rizi"
+    given-names: "Anthony"
+    affiliation: "School of Computer and Cyber Sciences, Augusta University"
+version: "1.0.0"
+date-released: "2026-10-20"
+doi: "10.5281/zenodo.23507383"
+url: "https://doi.org/10.5281/zenodo.23507383"
+repository-code: "https://github.com/rataylo4/flir-identifinder2-acsac26-artifact"
+abstract: >-
+  Publicly released, sanitized ACSAC 2026 research artifact for the FLIR
+  identiFINDER2 security assessment. The included static checks validate
+  documented evidence and claim boundaries; they do not reproduce the
+  original physical-device experiments.

@@ -28,6 +28,13 @@ withheld_artifacts = "artifact/WITHHELD-ARTIFACTS.md"
 release_readiness = "infrastructure/RELEASE-READINESS.md"
 checksums = "artifact/checksums/SHA256SUMS.txt"
 
+[archive]
+release_tag = "v1.0.0"
+release_date = "2026-10-20"
+platform = "Zenodo"
+doi = "10.5281/zenodo.23507383"
+url = "https://doi.org/10.5281/zenodo.23507383"
+
 [execution]
 operating_systems = ["Linux", "macOS"]
 shell = "Bash"

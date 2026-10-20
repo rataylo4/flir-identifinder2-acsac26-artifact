@@ -47,7 +47,7 @@ The researcher approved the package licensing terms, figure redistribution, the 
 2019.2 reverse-engineering description, dedicated GitHub repository creation, and later
 Zenodo use on 2026-08-24. On 2026-09-08, the researcher reviewed the sanitized package and
 approved it for public release. The package is hosted in its dedicated GitHub repository.
-Zenodo archival has not yet occurred.
+The permanently archived v1.0.0 release is available at https://doi.org/10.5281/zenodo.23507383.
 
 PURPOSE
 
@@ -127,4 +127,4 @@ PUBLICATION STATE
 The dedicated GitHub repository is connected as the local `origin`. The standalone
 repository does not import the parent research-repository history. Public release was
 authorized by the researcher on 2026-09-08. infrastructure/hosting-plan.txt records the
-repository-maintenance and archival controls. No Zenodo record or upload has been created.
+repository-maintenance and archival controls. The v1.0.0 release has been archived on Zenodo: https://doi.org/10.5281/zenodo.23507383.

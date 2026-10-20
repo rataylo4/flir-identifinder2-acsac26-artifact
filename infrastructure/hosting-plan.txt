@@ -27,7 +27,8 @@ only after the GitHub/repository version is reviewed, approved, and frozen. The 
 archive, version, DOI metadata, authorship, and licensing fields must be verified before
 upload.
 
-CURRENT STATE: Public release of the GitHub repository is authorized. The repository owner
-retains direct control of its visibility setting. The local and remote repositories use
-standalone history and do not import the parent research-repository history. No GitHub
-release, Zenodo record, DOI, or Zenodo upload has been created.
+CURRENT STATE (2026-10-20): The approved standalone GitHub repository is public.
+Release v1.0.0 has been published and archived through Zenodo with the version-specific DOI
+https://doi.org/10.5281/zenodo.23507383. The original research-repository history and
+restricted evidence tree were not imported. The frozen v1.0.0 archive is unchanged by
+subsequent documentation-only updates to the main branch.
